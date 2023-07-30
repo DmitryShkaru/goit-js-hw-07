@@ -37,6 +37,7 @@ function onClick(e) {
 }
 
 function modalClose(e) {
-  if (e.code === "Escape" && instance);
-  instance.close();
+  if (e.code === "Escape" && instance) {
+    instance.close();
+  }
 }
